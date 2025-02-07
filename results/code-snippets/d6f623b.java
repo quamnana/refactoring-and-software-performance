@@ -1,0 +1,13 @@
+// Before Refactoring
+public ObjectWriter createObjectWriter(Class objectClass, long features, ObjectWriterProvider provider) {
+    // ... existing logic ...
+    String className = objectClass.getName();
+    // ... existing logic ...
+}
+
+//After Refactoring
+public ObjectWriter createObjectWriter(Class objectClass, long features, ObjectWriterProvider provider) {
+    // ... existing logic ...
+    String className = TypeUtils.getTypeName(objectClass);
+    // ... updated logic ...
+}

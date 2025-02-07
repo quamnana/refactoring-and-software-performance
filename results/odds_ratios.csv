@@ -1,0 +1,13 @@
+Refactoring Type,Count in Performance Dataset,Count in Refactoring Dataset,Odds Ratio
+Extract Variable,49,3356,3.87
+Extract Method,61,4223,3.83
+Inline Method,9,669,3.57
+Inline Variable,13,1380,2.5
+Change Variable Type,39,8332,1.24
+Add Variable Modifier,7,1553,1.19
+Remove Method Modifier,2,1151,0.46
+Remove Method Annotation,6,3743,0.42
+Add Parameter,6,6398,0.25
+Change Method Access Modifier,6,6387,0.25
+Add Method Annotation,10,10898,0.24
+Change Parameter Type,4,8115,0.13
